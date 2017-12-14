@@ -15,17 +15,12 @@ class App extends React.Component {
             <h3>DESIGNED BY</h3>
             <p>Max Miedinger 1957</p>
           </li>
-          <li className="wide tall">
-            {/* <img src={a} alt=""/> */}
-            <div className="pic" style={{ backgroundImage: "assets/a.png" }} />
-            {/* <div className="pic" style={{ backgroundImage: `url(${a})` }} /> */}
-          </li>
-          <li className="tall">
-            {/* <img src={curly} alt=""/> */}
-          </li>
-          <li className="large">
-            {/* <img src={and} alt=""/> */}
-          </li>
+          <li className="wide tall a" style={{ backgroundImage: `url(${a})` }} />
+
+          <li className="tall curly" style={{ backgroundImage: `url(${curly})` }} />
+
+          <li className="and" style={{ backgroundImage: `url(${and})` }} />
+
           <li className="bgBlack">
             <h2 className="grey">USAGE</h2>
           </li>
